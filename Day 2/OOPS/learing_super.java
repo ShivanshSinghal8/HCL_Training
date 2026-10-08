@@ -3,6 +3,9 @@ package OOPS;
 public class learing_super {
     static class Animal{
         String name = "Animal";
+        void sound(){
+            System.out.println("Animal");
+        }
     }
     static class Dog extends Animal{
         String name = "Dog";
